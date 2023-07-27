@@ -13,7 +13,7 @@ export default function Home() {
         <Hero />
         <div class="flex col-span-2 flex-col flex-wrap md:flex-row">
           {projects.map((project, index) => (
-            <div className="flex-1 min-w-[27rem] aspect-square" key={index}>
+            <div className="flex-1 min-w-[40rem] aspect-square" key={index}>
               <ProjectCard
                 title={project.title}
                 image={project.href}
