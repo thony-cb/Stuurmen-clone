@@ -28,3 +28,19 @@ body {
     transform: rotate(360deg);
   }
 }
+
+circle {
+  stroke-dashoffset: 0;
+  stroke-width: 3%;
+  fill: none;
+}
+.bg {
+  stroke: var(--accent);
+  opacity: 0.3;
+}
+#progress .indicator {
+  stroke: black;
+}
+#progress {
+  transform: rotate(-90deg);
+}
